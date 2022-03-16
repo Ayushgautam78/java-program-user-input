@@ -1,0 +1,22 @@
+package com.college;
+import java.util.Scanner;
+public class My_input {
+	public static void main(String[] args) {
+		System.out.println("taking input from user");
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter first number =  ");
+		double a = sc.nextDouble(); 
+		System.out.println("enter second number =  ");
+		double b = sc.nextDouble();  
+		double c = a + b ;
+		System.out.println("the product of two number =  ");
+		System.out.println(c);	
+	
+	
+	
+	
+	}
+	
+	
+	
+}
